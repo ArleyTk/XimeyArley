@@ -1,0 +1,103 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+}
+
+.movil {
+    background-color: aqua;
+}
+
+
+
+  body {
+    position: relative;
+    background-color: black;
+  }
+  
+  /* Agrega una capa semitransparente sobre la imagen */
+  body::before {
+    content: ""; /* Necesario para que el pseudo-elemento aparezca */
+    position: absolute; /* Establece la posición absoluta para cubrir todo el elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Define un color oscuro semitransparente */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
+  }
+  
+  .letrainicio {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    
+  }
+
+  .letrainicio2 {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+  }
+
+
+  
+
+  #fotitos {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+  }
+
+  #foto {
+    margin-left: 100px;
+  }
+
+  #regresar {
+
+    margin-left: 140px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 68, 154);
+  }
+
+  #contenedorboton {
+    width: 100%;
+  }
+
+  .c {
+    color: rgb(0, 195, 255);
+  }
+
+  .album {
+    text-align: center;
+}
+
+.foto {
+    max-width: 100%;
+    max-height: 100%;
+    display: none; /* Oculta todas las imágenes por defecto */
+}
+
+
+#regresar1 {
+
+  width: 100%;
+
+  margin-bottom: 50px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(216, 68, 154);
+}

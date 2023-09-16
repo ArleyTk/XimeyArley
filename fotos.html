@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Álbum de Fotos</title>
+    <!-- Incluye los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</head>
+<body onload="desliza()">
+
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores de carrusel -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <!-- Agrega más indicadores según la cantidad de imágenes -->
+        </ul>
+        
+        <!-- Slides de carrusel -->
+        <div class="carousel-inner">
+
+
+
+
+            <div class="carousel-item active">
+                <img src="galler/Screenshot_20230716_185803_com.instagram.android_edit_175257577577.jpg" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230716_185807_com.instagram.android_edit_183377431742.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230812_184840_com.instagram.android_edit_179414280899185.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230812_184847_com.instagram.android_edit_179403661955437.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230812_184901_com.instagram.android_edit_179393694280959.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230812_184905_com.instagram.android_edit_179313486505971.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230812_184925_com.instagram.android_edit_179295058926286.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230901_170105_com.instagram.android.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230901_170123_com.instagram.android.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230901_170147_com.instagram.android.jpg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="galler/Screenshot_20230901_170213_com.instagram.android.jpg" alt="Imagen 3">
+            </div>
+
+            <!-- Agrega más slides según la cantidad de imágenes -->
+        </div>
+        
+        <!-- Controles de carrusel -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
+
+<!-- Incluye los scripts de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+
+<div>
+    <div id="contenedorboton">
+        <button id="regresar1" type="button" onclick="window.location.href='index.html';">Regresar</button>
+    </div>
+</div>
+</body>
+</html>
